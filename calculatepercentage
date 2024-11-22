@@ -1,0 +1,9 @@
+public class calculatepercentage{
+    public static void main(String[] args)
+    {
+        int userscore=423;
+        int maxscore=500;
+        float percentage=((float)userscore/maxscore)*100;
+        System.out.println(percentage);
+  }
+}
