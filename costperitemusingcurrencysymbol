@@ -1,0 +1,10 @@
+public class costperitemusingcurrencysymbol{
+    public static void main(String[] args)
+    {
+        int item =50;
+        float costperitem =99.9f;
+        float totalcost=item*costperitem;
+        char currency='$';
+        System.out.println("the result is"+totalcost+currency);
+    }
+}
