@@ -1,0 +1,14 @@
+public class equal
+{
+    public static void main(String[] args)
+    {
+        String name ="rani";
+        int regnum =192372616;
+        char grade='s';
+        int fee=200000;
+        System.out.println(name);
+        System.out.println(regnum);
+        System.out.println(grade);
+        System.out.println(fee);
+    }
+}
