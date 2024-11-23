@@ -1,0 +1,6 @@
+public class printnewline {
+    public static void main(String[] args) {
+        String s = "Hello, World!\nThis is a new line.";
+        System.out.println(s);
+    }
+}
