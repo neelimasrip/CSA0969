@@ -1,0 +1,14 @@
+public class Main {  
+    int x = 5;  
+    class Second {
+        public void display() {
+            Main my_object = new Main();  
+            System.out.println(my_object.x); 
+        }
+    }
+    public static void main(String[] args) {
+        Main mainObj = new Main();
+        Second secondObj = mainObj.new Second();
+        secondObj.display(); 
+    }
+}
