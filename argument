@@ -1,0 +1,16 @@
+public class  argument
+{
+    public void fullthrottle()
+    {
+        System.out.println("the car is going as fast as it can");
+    }
+    public void speed(int maxspeed)
+    {
+        System.out.println("max speed is" +maxspeed);
+    }
+    public static void main(String[] args) {
+        argument mycar=new argument();
+        mycar.fullthrottle();
+        mycar.speed(200);
+    }
+}
