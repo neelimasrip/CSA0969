@@ -1,0 +1,21 @@
+public class Mains{
+    
+    // Static method can be called without creating an object
+    static void mystaticmethod() {
+        System.out.println("Static method can be called without creating an object");
+    }
+    
+    // Public method requires creating an object to be called
+    public void mypublicmethod() {
+        System.out.println("Public method cannot be called without creating the object");
+    }
+
+    public static void main(String[] args) {
+        // Calling static method directly
+        mystaticmethod();
+        
+        // Creating an object of Main class to call the public method
+        Mains myobject = new Mains();
+        myobject.mypublicmethod();
+    }
+}
